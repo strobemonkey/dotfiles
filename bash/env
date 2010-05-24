@@ -10,6 +10,11 @@ export PATH=/usr/local/git/bin:$PATH
 # include my stuff first
 #export PATH=$PATH:~/bin
 
+# Postgres stuff
+export PATH=$PATH:/opt/local/lib/postgresql84/bin
+export PATH=$PATH:/opt/local/var/macports/software/postgresql84/8.4.1_0/opt/local/lib/postgresql84/bin
+export ARCHFLAGS='-arch i386'
+
 export MANPATH=/usr/local/git/man:$MANPATH
 
 # EC2
@@ -24,3 +29,12 @@ export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 
 export SVN_EDITOR='mate -w'
 export EDITOR='mate -w'
+
+# mongodb stuff
+export PATH=$PATH:/usr/local/mongodb/bin
+
+# Android stuff
+export PATH=$PATH:~/Documents/workspace/android-sdk-mac_86/tools
+
+# RVM
+if [[ -s ~/.rvm/scripts/rvm ]] ; then source ~/.rvm/scripts/rvm ; fi

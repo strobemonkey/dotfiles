@@ -21,6 +21,10 @@ function take {
   cd $1
 }
 
+function tree {
+  ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'
+}
+ 
 alias l='ls -la'
 
 alias h='history'
