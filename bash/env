@@ -38,3 +38,6 @@ export PATH=$PATH:~/Documents/workspace/android-sdk-mac_86/tools
 
 # RVM
 if [[ -s ~/.rvm/scripts/rvm ]] ; then source ~/.rvm/scripts/rvm ; fi
+
+# JavaScript console
+export PATH=$PATH:/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/ 
