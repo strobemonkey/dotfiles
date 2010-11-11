@@ -13,7 +13,7 @@ export PATH=/usr/local/git/bin:$PATH
 # Postgres stuff
 export PATH=$PATH:/opt/local/lib/postgresql84/bin
 export PATH=$PATH:/opt/local/var/macports/software/postgresql84/8.4.1_0/opt/local/lib/postgresql84/bin
-export ARCHFLAGS='-arch i386'
+export ARCHFLAGS='arch x86_64'
 
 export MANPATH=/usr/local/git/man:$MANPATH
 
@@ -25,13 +25,10 @@ export EC2_PRIVATE_KEY="$(/bin/ls $HOME/.ec2/pk-*.pem)"
 export EC2_CERT="$(/bin/ls $HOME/.ec2/cert-*.pem)"
 
 # MacPorts
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+export PATH=/usr/local/bin:/opt/local/bin:/opt/local/sbin:$PATH
 
 export SVN_EDITOR='mate -w'
 export EDITOR='mate -w'
-
-# mongodb stuff
-export PATH=$PATH:/usr/local/mongodb/bin
 
 # Android stuff
 export PATH=$PATH:~/Documents/workspace/android-sdk-mac_86/tools
@@ -41,3 +38,8 @@ if [[ -s ~/.rvm/scripts/rvm ]] ; then source ~/.rvm/scripts/rvm ; fi
 
 # JavaScript console
 export PATH=$PATH:/System/Library/Frameworks/JavaScriptCore.framework/Versions/A/Resources/ 
+
+# Sage
+export SSO_INTEGRATION_CONFIG_DIR=/Users/develop/Documents/workspace/sage/code/fugu_dev_tools/config/sso_integration/
+export JAVA_HOME=`/usr/libexec/java_home`
+export CATALINA_HOME=/opt/local/share/java/tomcat6
