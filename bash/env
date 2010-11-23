@@ -43,3 +43,6 @@ export PATH=$PATH:/System/Library/Frameworks/JavaScriptCore.framework/Versions/A
 export SSO_INTEGRATION_CONFIG_DIR=/Users/develop/Documents/workspace/sage/code/fugu_dev_tools/config/sso_integration/
 export JAVA_HOME=`/usr/libexec/java_home`
 export CATALINA_HOME=/opt/local/share/java/tomcat6
+export PATH=$PATH:/Applications/MAMP/Library/bin
+
+export LD_LIBRARY_PATH=/opt/local/lib
