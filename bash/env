@@ -46,3 +46,13 @@ export CATALINA_HOME=/opt/local/share/java/tomcat6
 export PATH=$PATH:/Applications/MAMP/Library/bin
 
 export LD_LIBRARY_PATH=/opt/local/lib
+
+# node.js
+export PATH=$HOME/local/bin:$PATH
+
+# npm
+export PATH=$HOME/bin:$PATH
+export MANPATH=$HOME/share/mon:$MANPATH
+
+# nvm
+. ~/.nvm/nvm.sh
